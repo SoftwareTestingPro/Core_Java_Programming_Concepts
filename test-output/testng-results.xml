@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-01T14:34:40 IST" name="Default suite" finished-at="2024-08-01T14:34:40 IST" duration-ms="51">
+  <suite started-at="2024-09-10T21:12:06 IST" name="Default suite" finished-at="2024-09-10T21:12:06 IST" duration-ms="41">
     <groups>
     </groups>
-    <test started-at="2024-08-01T14:34:40 IST" name="Default test" finished-at="2024-08-01T14:34:40 IST" duration-ms="51">
-      <class name="com.qa.JavaProgramming.Arrays.Arrays">
-        <test-method signature="NumberArrayExample()[pri:0, instance:com.qa.JavaProgramming.Arrays.Arrays@7c7a06ec]" started-at="2024-08-01T14:34:40 IST" name="NumberArrayExample" finished-at="2024-08-01T14:34:40 IST" duration-ms="12" status="PASS">
+    <test started-at="2024-09-10T21:12:06 IST" name="Default test" finished-at="2024-09-10T21:12:06 IST" duration-ms="41">
+      <class name="com.qa.JavaProgramming.Others.HtmlPageCreator">
+        <test-method signature="CreateHTMLPage()[pri:0, instance:com.qa.JavaProgramming.Others.HtmlPageCreator@5c33f1a9]" started-at="2024-09-10T21:12:06 IST" name="CreateHTMLPage" finished-at="2024-09-10T21:12:06 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- NumberArrayExample -->
-      </class> <!-- com.qa.JavaProgramming.Arrays.Arrays -->
+        </test-method> <!-- CreateHTMLPage -->
+      </class> <!-- com.qa.JavaProgramming.Others.HtmlPageCreator -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
