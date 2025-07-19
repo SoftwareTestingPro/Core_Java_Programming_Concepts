@@ -1,3 +1,8 @@
 /target/
 /test-output/
 /.settings/
+/target
+/target/test-classes
+/test-output
+/test-output
+/test-output
