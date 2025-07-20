@@ -1,3 +1,17 @@
+//Hashtable
+//🔹 What it is:
+//Similar to HashMap, but synchronized (thread-safe).
+//
+//Doesn’t allow null keys or null values.
+//
+//🧠 Use When:
+//You need a map with built-in thread safety.
+//
+//You’re working in older Java environments.
+//
+//⚠️ Today’s Advice:
+//Prefer ConcurrentHashMap over Hashtable for modern multithreaded applications.
+//
 //HashTable is inherently synchronized, slower than Hashmap
 //HashTable doesn't allow any null keys or values
 

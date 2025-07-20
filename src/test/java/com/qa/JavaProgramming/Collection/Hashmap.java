@@ -1,3 +1,21 @@
+//HashMap
+//🔹 What it is:
+//A key-value pair structure.
+//
+//Backed by a hash table with buckets.
+//
+//Allows null keys and multiple null values.
+//
+//🧠 Use When:
+//You want fast lookup, insertion, deletion (O(1) average).
+//
+//You need a dynamic structure to store mappings.
+//
+//❌ Limitations:
+//Not thread-safe.
+//
+//No guaranteed order of elements.
+//
 //HashMap is non-synchronized, making it faster than Hashtable
 //HashMap lets you have one null key and several null values
 
@@ -40,8 +58,6 @@ public class Hashmap {
 		// Remove an entry from the HashMap
 		employees.remove("Jane Smith");
 		System.out.println("Jane Smith removed.");
-
-		// Print the updated HashMap
 		System.out.println("Updated Employee List:");
 		for (Map.Entry<String, String> entry : employees.entrySet()) {
 			System.out.println("Name: " + entry.getKey() + ", Position: " + entry.getValue());

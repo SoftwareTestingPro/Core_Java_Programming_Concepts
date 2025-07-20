@@ -1,19 +1,27 @@
 package com.qa.JavaProgramming.Arrays;
 
 import org.testng.annotations.Test;
+import java.util.Arrays;
+import java.util.Collections;
 
-public class Arrays {
+public class Array{
 
 	@Test
 	public void NumberArrayExample() {
 		// Declare and initialize an array of integers
-		int[] numbers = { 1, 2, 3, 4, 5 };
+		Integer[] numbers = { 1, 2, 3, 4, 5 };
 
 		// Print the array elements
 		System.out.println("Array elements:");
 		for (int number : numbers) {
 			System.out.println(number);
 		}
+		
+		Arrays.sort(numbers);
+        System.out.println("Ascending Sorted Array: " + Arrays.toString(numbers));
+        
+        Arrays.sort(numbers, Collections.reverseOrder());
+        System.out.println("Descending Sorted Array: " + Arrays.toString(numbers));
 
 		// Calculate the sum of array elements
 		int sum = 0;
@@ -51,13 +59,19 @@ public class Arrays {
 	@Test
 	public void StringArrayExample() {
 		// Declare and initialize an array of strings
-		String[] names = { "Alice", "Bob", "Charlie", "Diana", "Eve" };
+		String[] names = { "Diana", "Bob", "Charlie", "Eve", "Alice" };
 
 		// Print the array elements
 		System.out.println("Array elements:");
 		for (String name : names) {
 			System.out.println(name);
 		}
+		
+		Arrays.sort(names);
+        System.out.println("Ascending Sorted Array: " + Arrays.toString(names));
+        
+        Arrays.sort(names, Collections.reverseOrder());
+        System.out.println("Descending Sorted Array: " + Arrays.toString(names));
 
 		// Find the longest string in the array
 		String longestName = names[0];

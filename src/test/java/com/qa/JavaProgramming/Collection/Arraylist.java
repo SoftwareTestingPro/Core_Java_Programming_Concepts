@@ -1,3 +1,20 @@
+//Array
+//🔹 What it is:
+//A fixed-size, ordered collection of elements.
+//
+//Stored in contiguous memory locations.
+//
+//Accessed via index.
+//
+//🧠 Use When:
+//You know the exact number of elements ahead of time.
+//
+//You need fast access via index (O(1)).
+//
+//❌ Limitations:
+//Cannot dynamically grow/shrink.
+//
+//Not flexible for insertions/deletions.
 //The ArrayList class is a resizable array
 //The difference between a built-in array and an ArrayList in Java, is that the size of an array cannot be modified
 
@@ -14,17 +31,25 @@ public class Arraylist{
 		ArrayList<Integer> numbers = new ArrayList<>(10);
 
 		// Add elements to the ArrayList
+		numbers.add(5);
+		numbers.add(6);
 		numbers.add(1);
-		numbers.add(2);
-		numbers.add(3);
 
 		// Print the elements of the ArrayList
 		System.out.println("ArrayList: " + numbers);
+		
+		// Sort the elements of the ArrayList
+		Collections.sort(numbers);
+		System.out.println("Ascending Sorted ArrayList: " + numbers);
+		
+		// Sort the elements of the ArrayList
+		Collections.reverse(numbers);
+		System.out.println("Descending Sorted ArrayList: " + numbers);
 
 		// Print the size of the ArrayList
 		System.out.println("Size of ArrayList: " + numbers.size());
 
-		// Access elements
+		// Access 1st element
 		System.out.println("First element: " + numbers.get(0));
 
 		// Remove an element

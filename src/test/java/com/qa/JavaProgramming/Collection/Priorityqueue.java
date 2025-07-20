@@ -1,3 +1,19 @@
+//PriorityQueue
+//🔹 What it is:
+//A heap-based queue that orders elements by priority.
+//
+//Implements the Queue interface.
+//
+//🧠 Use When:
+//You want elements to be processed in priority order, not insertion order.
+//
+//Great for task scheduling, Dijkstra’s algorithm, etc.
+//
+//⚠️ Notes:
+//Default behavior is min-heap (lowest priority first).
+//
+//To implement a max-heap, use a custom comparator.
+
 //PriorityQueue doesn’t permit null
 //We can’t create a PriorityQueue of Objects that are non-comparable
 

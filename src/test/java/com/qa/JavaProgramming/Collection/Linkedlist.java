@@ -1,3 +1,19 @@
+//LinkedList
+//🔹 What it is:
+//A doubly-linked list implementation.
+//
+//Each element is connected to its previous and next.
+//
+//🧠 Use When:
+//You have frequent insertions/deletions, especially in the middle.
+//
+//You don't care about random access speed.
+//
+//❌ Limitations:
+//Slower access than arrays (O(n)).
+//
+//Takes more memory due to node links.
+
 package com.qa.JavaProgramming.Collection;
 
 import java.util.LinkedList;
