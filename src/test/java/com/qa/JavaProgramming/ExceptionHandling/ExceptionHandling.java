@@ -1,8 +1,11 @@
 package com.qa.JavaProgramming.ExceptionHandling;
 
+import org.testng.annotations.Test;
+
 public class ExceptionHandling {
 
-    public static void main(String[] args) {
+	@Test
+    public void test() {
         try {
             // Code that might throw an exception
             int[] numbers = {1, 2, 3};

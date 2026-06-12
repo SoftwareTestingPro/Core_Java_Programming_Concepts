@@ -3,6 +3,7 @@ package com.qa.JavaProgramming.Arrays;
 import org.testng.annotations.Test;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.List;
 
 public class Array{
 
@@ -66,6 +67,11 @@ public class Array{
 		for (String name : names) {
 			System.out.println(name);
 		}
+		
+		// Print the array elements in reverse
+		List<String> List = Arrays.asList(names);
+		Collections.reverse(List);
+        System.out.println("Reversed List: " + List);
 		
 		Arrays.sort(names);
         System.out.println("Ascending Sorted Array: " + Arrays.toString(names));

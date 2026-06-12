@@ -8,7 +8,7 @@ public class ReplaceReplaceAll {
 	public String String2 = "India 545!#&)(*^#$^%&$#@^^%3";
 
 	@Test
-	public void ReplaceSomeTextInString() {
+	public void ReplacePartialTextInString() {
 		String text = String1.replace("East or west ", "");
 		System.out.println(text);
 	}
